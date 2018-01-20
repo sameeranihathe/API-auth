@@ -9,7 +9,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 //Routes
-//app.use('/users', require('./routes/users'));
+app.use('/users', require('./routes/users'));
 
 
 //Start the server
